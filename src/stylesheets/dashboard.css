@@ -1,0 +1,38 @@
+
+.dashboardbutton{
+    height:fit-content ;
+    width: 10%;
+    background-color: navy;
+    color: #ebecf0;
+    margin-block-start: 2%;
+    cursor: pointer;
+}
+.dashboardbox{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    margin: auto;
+    padding: 4.5% 5%;
+    box-shadow:
+    2px 2px 5px rgba(87, 81, 81, 0.25) inset,
+      -5px -5px 10px  rgb(255, 255, 255) inset;
+}
+.dashboardchildbox{
+    color: navy;
+    background-color: #ebecf0;
+    padding: 0 5px;
+    /* border-radius: 3%; */
+    width: 100%;
+    margin: auto;
+    margin-top: 3%;
+    cursor: pointer;
+    display: flex;
+    transition: all 1s;
+    align-items: flex-start;
+      box-shadow:
+    2px 2px 5px rgba(87, 81, 81, 0.25),
+      -5px -5px 10px  rgb(255, 255, 255);
+}
+.dashboardchildbox:hover{
+    transform: scale(1.1);
+}

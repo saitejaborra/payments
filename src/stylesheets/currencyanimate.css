@@ -1,0 +1,21 @@
+
+ #currency{
+   animation-name: runit;
+   animation-duration: 1s;
+   animation-timing-function:ease-out;
+   animation-direction: alternate;
+   animation-iteration-count: infinite;
+ }
+  @keyframes runit {
+   0%{
+     transform: translateY(0%);
+   }
+   100%{
+     transform: translateY(-5%);
+   } 
+   
+ }
+.svg{
+  width: 700px;
+   height: 579px;
+}
